@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "flat"
+version = "0.1.0"
+description = ""
+authors = ["G0shan4ik <egorkononec64@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.4.1"
+botasaurus = "^4.0.88"
+pandas = "^2.3.0"
+openpyxl = "^3.1.5"
+diskcache = "^5.6.3"
+loguru = "^0.7.3"
+playwright = "^1.53.0"
+
+
+[tool.poetry.scripts]
+dev = "main:start_dev"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
